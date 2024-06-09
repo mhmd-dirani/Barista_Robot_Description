@@ -1,0 +1,70 @@
+Panels:
+  - Class: rviz/Displays
+    Name: Displays
+  - Class: rviz/Time
+    Name: Time
+  - Class: rviz/Views
+    Name: Views
+
+Visualization Manager:
+  Class: ""
+  Displays:
+    - Class: rviz/RobotModel
+      Name: RobotModel
+      Enabled: true
+      Robot Description: robot_description
+      TF Prefix: ""
+    - Class: rviz/Grid
+      Name: Grid
+      Enabled: true
+      Plane Cell Count: 10
+      Plane Cell Size: 1.0
+      Line Style: Lines
+      Line Width: 0.03
+    - Class: rviz/LaserScan
+      Name: LaserScan
+      Enabled: true
+      Topic: /scan
+      Color Transformer: Intensity
+      Autocompute Intensity Bounds: true
+      Style: Points
+      Decay Time: 0.0
+      Size (m): 0.1
+      Queue Size: 10
+      Color:
+        r: 1.0
+        g: 1.0
+        b: 0.0
+        a: 1.0
+      Buffer Length: 1
+      Axis:
+        z: 0.0
+        x: 0.0
+        y: 0.0
+      Alpha: 0.5
+      Point Size: 0.05
+  Name: ""
+  Global Options:
+    Background Color: 
+      r: 0.0
+      g: 0.0
+      b: 0.0
+      a: 1.0
+    Fixed Frame: odom
+  Time Display:
+    Enabled: true
+  Current View:
+    Class: rviz/TopDownOrtho
+    Name: TopDownOrtho
+    Pitch: 0.0
+    Focal Point:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    Yaw: 0.0
+    Position:
+      x: 5.0
+      y: 5.0
+      z: 5.0
+    Scale: 1.0
+    Min Distance: 0.01

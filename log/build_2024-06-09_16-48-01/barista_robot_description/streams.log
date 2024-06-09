@@ -1,0 +1,91 @@
+[0.019s] Invoking command in '/home/user/ros2_ws/build/barista_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/barista_robot_description -- -j8 -l8
+[0.044s] -- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.178s] -- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[0.214s] -- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.217s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.223s] -- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.234s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.250s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.315s] -- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.316s] -- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.465s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.665s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[0.692s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[0.693s] -- Looking for ignition-math6 -- found version 6.12.0
+[0.697s] -- Searching for dependencies of ignition-math6
+[0.699s] -- Looking for OGRE...
+[0.704s] -- Found Ogre Ghadamon (1.9.0)
+[0.704s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[0.713s] -- Looking for OGRE_Paging...
+[0.713s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[0.714s] -- Looking for OGRE_Terrain...
+[0.714s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[0.714s] -- Looking for OGRE_Property...
+[0.714s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[0.714s] -- Looking for OGRE_RTShaderSystem...
+[0.714s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[0.714s] -- Looking for OGRE_Volume...
+[0.714s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[0.714s] -- Looking for OGRE_Overlay...
+[0.714s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[0.815s] -- Looking for ignition-math6 -- found version 6.12.0
+[0.816s] -- Looking for ignition-transport8 -- found version 8.2.1
+[0.816s] -- Searching for dependencies of ignition-transport8
+[0.841s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[0.861s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[0.865s] -- Checking for module 'libzmq >= 4'
+[0.876s] --   Found libzmq , version 4.3.4
+[0.918s] -- Checking for module 'uuid'
+[0.929s] --   Found uuid, version 2.37.2
+[0.957s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.957s] -- Searching for dependencies of ignition-msgs5
+[0.992s] -- Looking for ignition-math6 -- found version 6.12.0
+[0.996s] -- Checking for module 'tinyxml2'
+[1.006s] --   Found tinyxml2, version 9.0.0
+[1.033s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.033s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.033s] -- Searching for dependencies of ignition-common3
+[1.033s] -- Looking for dlfcn.h - found
+[1.034s] -- Looking for libdl - found
+[1.044s] -- Searching for <ignition-common3> component [graphics]
+[1.044s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[1.045s] -- Searching for dependencies of ignition-common3-graphics
+[1.045s] -- Looking for ignition-math6 -- found version 6.12.0
+[1.046s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[1.047s] -- Searching for dependencies of ignition-fuel_tools4
+[1.087s] -- Checking for module 'jsoncpp'
+[1.099s] --   Found jsoncpp, version 1.9.5
+[1.130s] -- Checking for module 'libzip'
+[1.140s] --   Found libzip, version 1.7.3
+[1.167s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.167s] -- Looking for ignition-math6 -- found version 6.12.0
+[1.168s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.169s] -- Gazebo version: 11.10
+[1.186s] -- Found ament_cmake_auto: 1.3.2 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[1.406s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.409s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.409s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.432s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.452s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.461s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.462s] -- Added test 'lint_cmake' to check CMake code style
+[2.462s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.467s] -- Added test 'xmllint' to check XML markup files
+[2.467s] -- Configuring done
+[2.476s] -- Generating done
+[2.479s] -- Build files have been written to: /home/user/ros2_ws/build/barista_robot_description
+[2.507s] Invoked command in '/home/user/ros2_ws/build/barista_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/barista_robot_description -- -j8 -l8
+[2.541s] Invoking command in '/home/user/ros2_ws/build/barista_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/barista_robot_description
+[2.546s] -- Install configuration: ""
+[2.546s] -- Up-to-date: /home/user/ros2_ws/install/barista_robot_description/share/barista_robot_description//urdf
+[2.546s] -- Installing: /home/user/ros2_ws/install/barista_robot_description/share/barista_robot_description//urdf/barista_robot_model.urdf
+[2.547s] -- Up-to-date: /home/user/ros2_ws/install/barista_robot_description/share/barista_robot_description//meshes
+[2.547s] -- Up-to-date: /home/user/ros2_ws/install/barista_robot_description/share/barista_robot_description//meshes/hokuyo_utm_30lx.dae
+[2.547s] -- Up-to-date: /home/user/ros2_ws/install/barista_robot_description/share/barista_robot_description//meshes/hokuyo_utm_30lx.stl
+[2.547s] [31mCMake Error at cmake_install.cmake:46 (file):
+[2.547s]   file INSTALL cannot find
+[2.547s]   "/home/user/ros2_ws/src/barista_robot_description/rviz": No such file or
+[2.547s]   directory.
+[2.547s] 
+[2.548s] [0m
+[2.548s] Invoked command in '/home/user/ros2_ws/build/barista_robot_description' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/barista_robot_description

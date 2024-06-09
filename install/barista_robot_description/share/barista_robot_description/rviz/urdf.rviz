@@ -1,0 +1,89 @@
+Panels:
+  - Class: rviz_common/Displays
+    Help Height: 78
+    Name: Displays
+    Property Tree Widget:
+      Expanded:
+        - /Global Options1
+        - /Status1
+        - /Grid1
+        - /RobotModel1/Description Topic1
+        - /LaserScan1
+        - /LaserScan1/Topic1
+      Splitter Ratio: 0.5
+    Tree Height: 525
+  - Class: rviz_common/Selection
+    Name: Selection
+  - Class: rviz_common/Tool Properties
+    Expanded:
+      - /2D Goal Pose1
+      - /Publish Point1
+    Name: Tool Properties
+    Splitter Ratio: 0.5886790156364441
+  - Class: rviz_common/Views
+    Expanded:
+      - /Current View1
+    Name: Views
+    Splitter Ratio: 0.5
+  - Class: rviz_common/Time
+    Experimental: false
+    Name: Time
+    SyncMode: 0
+    SyncSource: LaserScan
+Visualization Manager:
+  Displays:
+    - Alpha: 0.5
+      Class: rviz_default_plugins/Grid
+      Color: 160; 160; 164
+      Enabled: true
+      Name: Grid
+      Plane Cell Count: 10
+      Plane Cell Size: 1.0
+      Line Style: Lines
+      Line Width: 0.03
+    - Alpha: 1
+      Class: rviz_default_plugins/RobotModel
+      Enabled: true
+      Robot Description: /robot_description
+      TF Prefix: ""
+    - Class: rviz_default_plugins/TF
+      Enabled: true
+    - Alpha: 1
+      Class: rviz_default_plugins/LaserScan
+      Enabled: true
+      Topic: /scan
+      Color Transformer: Intensity
+      Autocompute Intensity Bounds: true
+      Style: Points
+      Decay Time: 0.0
+      Size (m): 0.1
+      Queue Size: 10
+  Global Options:
+    Background Color: 
+      r: 0.0
+      g: 0.0
+      b: 0.0
+      a: 1.0
+    Fixed Frame: base_link
+  Tools:
+    - Class: rviz_default_plugins/Interact
+    - Class: rviz_default_plugins/MoveCamera
+    - Class: rviz_default_plugins/Select
+    - Class: rviz_default_plugins/FocusCamera
+    - Class: rviz_default_plugins/Measure
+    - Class: rviz_default_plugins/SetInitialPose
+      Topic: /initialpose
+    - Class: rviz_default_plugins/SetGoal
+      Topic: /goal_pose
+    - Class: rviz_default_plugins/PublishPoint
+      Topic: /clicked_point
+  Views:
+    Current:
+      Class: rviz_default_plugins/Orbit
+      Distance: 1.92
+      Focal Point:
+        x: 0
+        y: 0
+        z: 0
+      Pitch: 0.625
+      Yaw: 5.695

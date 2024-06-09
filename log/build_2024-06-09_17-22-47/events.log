@@ -1,0 +1,131 @@
+[0.000000] (-) TimerEvent: {}
+[0.000452] (barista_robot_description) JobQueued: {'identifier': 'barista_robot_description', 'dependencies': OrderedDict()}
+[0.000979] (barista_robot_description) JobStarted: {'identifier': 'barista_robot_description'}
+[0.017751] (barista_robot_description) JobProgress: {'identifier': 'barista_robot_description', 'progress': 'cmake'}
+[0.017934] (barista_robot_description) JobProgress: {'identifier': 'barista_robot_description', 'progress': 'build'}
+[0.017970] (barista_robot_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/user/ros2_ws/build/barista_robot_description', '--', '-j8', '-l8'], 'cwd': '/home/user/ros2_ws/build/barista_robot_description', 'env': OrderedDict([('ROS_VERSION', '2'), ('GAZEBO_MASTER_URI', 'http://1_xterm:11345'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', '1_xterm'), ('PWD', '/home/user/ros2_ws/build/barista_robot_description'), ('PORT', '4000'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROS_IP', ''), ('HOME', '/home/user'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('LANG', 'en_US.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/user/ros2_ws/install/barista_robot_description:/opt/ros/humble'), ('CMAKE_PREFIX_PATH', '/home/user/ros2_ws/install/barista_robot_description:/opt/ros/humble'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo'), ('COLCON_PREFIX_PATH', '/home/user/ros2_ws/install:/home/simulations/ros2_sims_ws/install'), ('GAZEBO_MASTER_PORT', '11345'), ('NVM_DIR', '/usr/local/share/shell/.nvm'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/simulations/public_sim_ws/src/all/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/all/kinematics_course_utils/kinematics'), ('COLCON', '1'), ('TERM', 'xterm-color'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SNAPCRAFT_BUILD_ENVIRONMENT', 'host'), ('GAZEBO_MASTER_HOSTNAME', '1_xterm'), ('DISPLAY', ':1'), ('SHLVL', '2'), ('NVM_CD_FLAGS', ''), ('ROS_MASTER_URI', 'http://1_xterm:11311'), ('ROS_HOSTNAME', '1_xterm'), ('LD_LIBRARY_PATH', '/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('ROS_LOCALHOST_ONLY', '0'), ('SLOT_SHELL_START_ID', '790571'), ('SLOT_PREFIX', 'b15a428c-dfd7-4237-8cec-a9970c4fcac2'), ('LC_ALL', 'C'), ('SOURCE_ROS1_WS', ''), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox'), ('SLOT_JENKINS_PORT', '25030'), ('SLOT_SYSTEMD', 'False'), ('PATH', '/opt/ros/humble/bin:/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/user/.cargo/bin:/home/user/.cargo/bin'), ('SELECTED_ROS_DISTRO', 'humble'), ('NVM_BIN', '/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin'), ('NODE_VERSION', 'v8.17.0'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_DISTRO', 'humble'), ('GAZEBO_VERBOSE', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('OLDPWD', '/home/user/ros2_ws'), ('SOURCE_ROS2_WS', 'True'), ('SLOT_ROSBRIDGE_PORT', '20001'), ('_', '/usr/bin/env')]), 'shell': False}
+[0.047079] (barista_robot_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099627] (-) TimerEvent: {}
+[0.187482] (barista_robot_description) StdoutLine: {'line': b'-- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)\n'}
+[0.199710] (-) TimerEvent: {}
+[0.223391] (barista_robot_description) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.227307] (barista_robot_description) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.233408] (barista_robot_description) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.244341] (barista_robot_description) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.261474] (barista_robot_description) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.299833] (-) TimerEvent: {}
+[0.326461] (barista_robot_description) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.327788] (barista_robot_description) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.399934] (-) TimerEvent: {}
+[0.476282] (barista_robot_description) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.500030] (-) TimerEvent: {}
+[0.600308] (-) TimerEvent: {}
+[0.674422] (barista_robot_description) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[0.700412] (-) TimerEvent: {}
+[0.700713] (barista_robot_description) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[0.703209] (barista_robot_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.12.0\n'}
+[0.707320] (barista_robot_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[0.709159] (barista_robot_description) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[0.714023] (barista_robot_description) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[0.714229] (barista_robot_description) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[0.723304] (barista_robot_description) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[0.723437] (barista_robot_description) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[0.723569] (barista_robot_description) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[0.723700] (barista_robot_description) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[0.723831] (barista_robot_description) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[0.724010] (barista_robot_description) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[0.724086] (barista_robot_description) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[0.724155] (barista_robot_description) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[0.724226] (barista_robot_description) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[0.724294] (barista_robot_description) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[0.724364] (barista_robot_description) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[0.724433] (barista_robot_description) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[0.800516] (-) TimerEvent: {}
+[0.824136] (barista_robot_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.12.0\n'}
+[0.824540] (barista_robot_description) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[0.825016] (barista_robot_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[0.848716] (barista_robot_description) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[0.869186] (barista_robot_description) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[0.873354] (barista_robot_description) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[0.885007] (barista_robot_description) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[0.900596] (-) TimerEvent: {}
+[0.920639] (barista_robot_description) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[0.930657] (barista_robot_description) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[0.956943] (barista_robot_description) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[0.957357] (barista_robot_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[0.983014] (barista_robot_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.12.0\n'}
+[0.987265] (barista_robot_description) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[0.997109] (barista_robot_description) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[1.000680] (-) TimerEvent: {}
+[1.023522] (barista_robot_description) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[1.023852] (barista_robot_description) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[1.024315] (barista_robot_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[1.024462] (barista_robot_description) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[1.024536] (barista_robot_description) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[1.036999] (barista_robot_description) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[1.037342] (barista_robot_description) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[1.037893] (barista_robot_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[1.038241] (barista_robot_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.12.0\n'}
+[1.039216] (barista_robot_description) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[1.039636] (barista_robot_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[1.082157] (barista_robot_description) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[1.096443] (barista_robot_description) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[1.100793] (-) TimerEvent: {}
+[1.129469] (barista_robot_description) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[1.139660] (barista_robot_description) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[1.167714] (barista_robot_description) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[1.168198] (barista_robot_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.12.0\n'}
+[1.168793] (barista_robot_description) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[1.170193] (barista_robot_description) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[1.180215] (barista_robot_description) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.2 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[1.200894] (-) TimerEvent: {}
+[1.301180] (-) TimerEvent: {}
+[1.352087] (barista_robot_description) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[1.353365] (barista_robot_description) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.401306] (-) TimerEvent: {}
+[1.501666] (-) TimerEvent: {}
+[1.601966] (-) TimerEvent: {}
+[1.702269] (-) TimerEvent: {}
+[1.802563] (-) TimerEvent: {}
+[1.868082] (barista_robot_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.879292] (barista_robot_description) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.887474] (barista_robot_description) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.888622] (barista_robot_description) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.889338] (barista_robot_description) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.893589] (barista_robot_description) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.894309] (barista_robot_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.902239] (barista_robot_description) StdoutLine: {'line': b'-- Generating done\n'}
+[1.902630] (-) TimerEvent: {}
+[1.904906] (barista_robot_description) StdoutLine: {'line': b'-- Build files have been written to: /home/user/ros2_ws/build/barista_robot_description\n'}
+[1.935979] (barista_robot_description) CommandEnded: {'returncode': 0}
+[1.963581] (barista_robot_description) JobProgress: {'identifier': 'barista_robot_description', 'progress': 'install'}
+[1.972553] (barista_robot_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/user/ros2_ws/build/barista_robot_description'], 'cwd': '/home/user/ros2_ws/build/barista_robot_description', 'env': OrderedDict([('ROS_VERSION', '2'), ('GAZEBO_MASTER_URI', 'http://1_xterm:11345'), ('ROS_PYTHON_VERSION', '3'), ('HOSTNAME', '1_xterm'), ('PWD', '/home/user/ros2_ws/build/barista_robot_description'), ('PORT', '4000'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('ROS_IP', ''), ('HOME', '/home/user'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('LANG', 'en_US.UTF-8'), ('GAZEBO_MODEL_DATABASE_URI', 'http://models.gazebosim.org'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/user/ros2_ws/install/barista_robot_description:/opt/ros/humble'), ('CMAKE_PREFIX_PATH', '/home/user/ros2_ws/install/barista_robot_description:/opt/ros/humble'), ('GAZEBO_RESOURCE_PATH', '/usr/share/gazebo-11:/usr/share/gazebo-11:/usr/share/gazebo'), ('COLCON_PREFIX_PATH', '/home/user/ros2_ws/install:/home/simulations/ros2_sims_ws/install'), ('GAZEBO_MASTER_PORT', '11345'), ('NVM_DIR', '/usr/local/share/shell/.nvm'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/home/simulations/public_sim_ws/src/all/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/ros_basics_examples/python_course_class:/home/simulations/public_sim_ws/src/all/kinematics_course_utils/kinematics'), ('COLCON', '1'), ('TERM', 'xterm-color'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('SNAPCRAFT_BUILD_ENVIRONMENT', 'host'), ('GAZEBO_MASTER_HOSTNAME', '1_xterm'), ('DISPLAY', ':1'), ('SHLVL', '2'), ('NVM_CD_FLAGS', ''), ('ROS_MASTER_URI', 'http://1_xterm:11311'), ('ROS_HOSTNAME', '1_xterm'), ('LD_LIBRARY_PATH', '/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda-10.2/lib64:/home/user/.catkin_ws_python3/src/TensorRT-7.0.0.11/lib::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins::/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:'), ('ROS_LOCALHOST_ONLY', '0'), ('SLOT_SHELL_START_ID', '790571'), ('SLOT_PREFIX', 'b15a428c-dfd7-4237-8cec-a9970c4fcac2'), ('LC_ALL', 'C'), ('SOURCE_ROS1_WS', ''), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/usr/share/gazebo-11/models:/usr/share/gazebo-9/models:/usr/share/gazebo/models_robox'), ('SLOT_JENKINS_PORT', '25030'), ('SLOT_SYSTEMD', 'False'), ('PATH', '/opt/ros/humble/bin:/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/user/.cargo/bin:/home/user/.cargo/bin'), ('SELECTED_ROS_DISTRO', 'humble'), ('NVM_BIN', '/usr/local/share/shell/.nvm/versions/node/v8.17.0/bin'), ('NODE_VERSION', 'v8.17.0'), ('DEBIAN_FRONTEND', 'noninteractive'), ('ROS_DISTRO', 'humble'), ('GAZEBO_VERBOSE', '0'), ('OGRE_RESOURCE_PATH', '/usr/lib/x86_64-linux-gnu/OGRE-1.9.0'), ('OLDPWD', '/home/user/ros2_ws'), ('SOURCE_ROS2_WS', 'True'), ('SLOT_ROSBRIDGE_PORT', '20001'), ('_', '/usr/bin/env')]), 'shell': False}
+[1.979627] (barista_robot_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.979922] (barista_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/barista_robot_description/share/barista_robot_description//urdf\n'}
+[1.980077] (barista_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/barista_robot_description/share/barista_robot_description//urdf/barista_robot_model.urdf\n'}
+[1.980190] (barista_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/barista_robot_description/share/barista_robot_description//meshes\n'}
+[1.980340] (barista_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/barista_robot_description/share/barista_robot_description//meshes/hokuyo_utm_30lx.dae\n'}
+[1.980455] (barista_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/barista_robot_description/share/barista_robot_description//meshes/hokuyo_utm_30lx.stl\n'}
+[1.980570] (barista_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/barista_robot_description/share/barista_robot_description//launch\n'}
+[1.980751] (barista_robot_description) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/barista_robot_description/share/barista_robot_description//launch/barista_urdf.launch.py\n'}
+[1.980953] (barista_robot_description) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/barista_robot_description/share/barista_robot_description//rviz\n'}
+[1.981075] (barista_robot_description) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/barista_robot_description/share/barista_robot_description//rviz/urdf.rviz\n'}
+[1.981222] (barista_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/barista_robot_description/share/ament_index/resource_index/package_run_dependencies/barista_robot_description\n'}
+[1.981367] (barista_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/barista_robot_description/share/ament_index/resource_index/parent_prefix_path/barista_robot_description\n'}
+[1.981535] (barista_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/barista_robot_description/share/barista_robot_description/environment/ament_prefix_path.sh\n'}
+[1.981733] (barista_robot_description) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/barista_robot_description/share/barista_robot_description/environment/ament_prefix_path.dsv\n'}
+[1.981893] (barista_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/barista_robot_description/share/barista_robot_description/environment/path.sh\n'}
+[1.982005] (barista_robot_description) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/barista_robot_description/share/barista_robot_description/environment/path.dsv\n'}
+[1.982151] (barista_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/barista_robot_description/share/barista_robot_description/local_setup.bash\n'}
+[1.982268] (barista_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/barista_robot_description/share/barista_robot_description/local_setup.sh\n'}
+[1.982478] (barista_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/barista_robot_description/share/barista_robot_description/local_setup.zsh\n'}
+[1.982620] (barista_robot_description) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/barista_robot_description/share/barista_robot_description/local_setup.dsv\n'}
+[1.982718] (barista_robot_description) StdoutLine: {'line': b'-- Installing: /home/user/ros2_ws/install/barista_robot_description/share/barista_robot_description/package.dsv\n'}
+[1.982792] (barista_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/barista_robot_description/share/ament_index/resource_index/packages/barista_robot_description\n'}
+[1.982866] (barista_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/barista_robot_description/share/barista_robot_description/cmake/barista_robot_descriptionConfig.cmake\n'}
+[1.982943] (barista_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/barista_robot_description/share/barista_robot_description/cmake/barista_robot_descriptionConfig-version.cmake\n'}
+[1.983012] (barista_robot_description) StdoutLine: {'line': b'-- Up-to-date: /home/user/ros2_ws/install/barista_robot_description/share/barista_robot_description/package.xml\n'}
+[1.986668] (barista_robot_description) CommandEnded: {'returncode': 0}
+[2.002772] (-) TimerEvent: {}
+[2.064029] (barista_robot_description) JobEnded: {'identifier': 'barista_robot_description', 'rc': 0}
+[2.066035] (-) EventReactorShutdown: {}

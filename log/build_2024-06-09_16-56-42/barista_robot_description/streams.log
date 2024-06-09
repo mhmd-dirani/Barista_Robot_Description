@@ -1,0 +1,85 @@
+[0.020s] Invoking command in '/home/user/ros2_ws/build/barista_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/barista_robot_description -- -j8 -l8
+[0.047s] -- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.184s] -- Found gazebo_ros: 3.7.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[0.221s] -- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.224s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.230s] -- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.241s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.259s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.320s] -- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.322s] -- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.470s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.666s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[0.694s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[0.695s] -- Looking for ignition-math6 -- found version 6.12.0
+[0.699s] -- Searching for dependencies of ignition-math6
+[0.701s] -- Looking for OGRE...
+[0.706s] -- Found Ogre Ghadamon (1.9.0)
+[0.706s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[0.715s] -- Looking for OGRE_Paging...
+[0.715s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[0.716s] -- Looking for OGRE_Terrain...
+[0.716s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[0.716s] -- Looking for OGRE_Property...
+[0.716s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[0.716s] -- Looking for OGRE_RTShaderSystem...
+[0.716s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[0.716s] -- Looking for OGRE_Volume...
+[0.716s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[0.716s] -- Looking for OGRE_Overlay...
+[0.716s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[0.816s] -- Looking for ignition-math6 -- found version 6.12.0
+[0.816s] -- Looking for ignition-transport8 -- found version 8.2.1
+[0.817s] -- Searching for dependencies of ignition-transport8
+[0.841s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[0.860s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[0.864s] -- Checking for module 'libzmq >= 4'
+[0.874s] --   Found libzmq , version 4.3.4
+[0.907s] -- Checking for module 'uuid'
+[0.919s] --   Found uuid, version 2.37.2
+[0.945s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.946s] -- Searching for dependencies of ignition-msgs5
+[0.975s] -- Looking for ignition-math6 -- found version 6.12.0
+[0.980s] -- Checking for module 'tinyxml2'
+[0.990s] --   Found tinyxml2, version 9.0.0
+[1.016s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.016s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.017s] -- Searching for dependencies of ignition-common3
+[1.017s] -- Looking for dlfcn.h - found
+[1.017s] -- Looking for libdl - found
+[1.028s] -- Searching for <ignition-common3> component [graphics]
+[1.028s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[1.028s] -- Searching for dependencies of ignition-common3-graphics
+[1.029s] -- Looking for ignition-math6 -- found version 6.12.0
+[1.034s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[1.034s] -- Searching for dependencies of ignition-fuel_tools4
+[1.071s] -- Checking for module 'jsoncpp'
+[1.082s] --   Found jsoncpp, version 1.9.5
+[1.115s] -- Checking for module 'libzip'
+[1.125s] --   Found libzip, version 1.7.3
+[1.153s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.153s] -- Looking for ignition-math6 -- found version 6.12.0
+[1.153s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.154s] -- Gazebo version: 11.10
+[1.164s] -- Found rclpy: 3.3.4 (/opt/ros/humble/share/rclpy/cmake)
+[1.181s] [31mCMake Error at CMakeLists.txt:12 (find_package):
+[1.181s]   By not providing "Findament_index_python.cmake" in CMAKE_MODULE_PATH this
+[1.181s]   project has asked CMake to find a package configuration file provided by
+[1.181s]   "ament_index_python", but CMake did not find one.
+[1.182s] 
+[1.182s]   Could not find a package configuration file provided by
+[1.182s]   "ament_index_python" with any of the following names:
+[1.182s] 
+[1.182s]     ament_index_pythonConfig.cmake
+[1.182s]     ament_index_python-config.cmake
+[1.182s] 
+[1.182s]   Add the installation prefix of "ament_index_python" to CMAKE_PREFIX_PATH or
+[1.182s]   set "ament_index_python_DIR" to a directory containing one of the above
+[1.182s]   files.  If "ament_index_python" provides a separate development package or
+[1.182s]   SDK, be sure it has been installed.
+[1.182s] 
+[1.182s] [0m
+[1.182s] -- Configuring incomplete, errors occurred!
+[1.182s] See also "/home/user/ros2_ws/build/barista_robot_description/CMakeFiles/CMakeOutput.log".
+[1.192s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[1.194s] Invoked command in '/home/user/ros2_ws/build/barista_robot_description' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/barista_robot_description -- -j8 -l8
