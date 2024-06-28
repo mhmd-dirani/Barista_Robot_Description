@@ -1,0 +1,20 @@
+[0.021s] Invoking command in '/home/user/ros2_ws/build/barista_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/barista_robot_description -- -j8 -l8
+[0.064s] Invoked command in '/home/user/ros2_ws/build/barista_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/barista_robot_description -- -j8 -l8
+[0.103s] Invoking command in '/home/user/ros2_ws/build/barista_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/barista_robot_description
+[0.110s] -- Install configuration: ""
+[0.110s] -- Up-to-date: /home/user/ros2_ws/install/barista_robot_description/share/barista_robot_description//urdf
+[0.110s] -- Installing: /home/user/ros2_ws/install/barista_robot_description/share/barista_robot_description//urdf/barista_robot_model.urdf
+[0.110s] -- Up-to-date: /home/user/ros2_ws/install/barista_robot_description/share/barista_robot_description//meshes
+[0.110s] -- Up-to-date: /home/user/ros2_ws/install/barista_robot_description/share/barista_robot_description//meshes/hokuyo_utm_30lx.dae
+[0.110s] -- Up-to-date: /home/user/ros2_ws/install/barista_robot_description/share/barista_robot_description//meshes/hokuyo_utm_30lx.stl
+[0.110s] -- Up-to-date: /home/user/ros2_ws/install/barista_robot_description/share/barista_robot_description//launch
+[0.110s] -- Installing: /home/user/ros2_ws/install/barista_robot_description/share/barista_robot_description//launch/barista_urdf.launch.py
+[0.110s] -- Up-to-date: /home/user/ros2_ws/install/barista_robot_description/share/barista_robot_description//rviz
+[0.111s] -- Installing: /home/user/ros2_ws/install/barista_robot_description/share/barista_robot_description//rviz/urdf.rviz
+[0.111s] [31mCMake Error at cmake_install.cmake:46 (file):
+[0.111s]   file INSTALL cannot find
+[0.111s]   "/home/user/ros2_ws/src/barista_robot_description/xacro": No such file or
+[0.111s]   directory.
+[0.111s] 
+[0.111s] [0m
+[0.112s] Invoked command in '/home/user/ros2_ws/build/barista_robot_description' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/barista_robot_description

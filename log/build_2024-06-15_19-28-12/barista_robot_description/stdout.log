@@ -1,0 +1,26 @@
+-- Install configuration: ""
+-- Up-to-date: /home/user/ros2_ws/install/barista_robot_description/share/barista_robot_description//urdf
+-- Up-to-date: /home/user/ros2_ws/install/barista_robot_description/share/barista_robot_description//urdf/barista_robot_model.urdf
+-- Up-to-date: /home/user/ros2_ws/install/barista_robot_description/share/barista_robot_description//meshes
+-- Up-to-date: /home/user/ros2_ws/install/barista_robot_description/share/barista_robot_description//meshes/hokuyo_utm_30lx.dae
+-- Up-to-date: /home/user/ros2_ws/install/barista_robot_description/share/barista_robot_description//meshes/hokuyo_utm_30lx.stl
+-- Up-to-date: /home/user/ros2_ws/install/barista_robot_description/share/barista_robot_description//launch
+-- Up-to-date: /home/user/ros2_ws/install/barista_robot_description/share/barista_robot_description//launch/barista_xacro.launch.py
+-- Up-to-date: /home/user/ros2_ws/install/barista_robot_description/share/barista_robot_description//launch/barista_urdf.launch.py
+-- Up-to-date: /home/user/ros2_ws/install/barista_robot_description/share/barista_robot_description//rviz
+-- Installing: /home/user/ros2_ws/install/barista_robot_description/share/barista_robot_description//rviz/urdf.rviz
+-- Up-to-date: /home/user/ros2_ws/install/barista_robot_description/share/ament_index/resource_index/package_run_dependencies/barista_robot_description
+-- Up-to-date: /home/user/ros2_ws/install/barista_robot_description/share/ament_index/resource_index/parent_prefix_path/barista_robot_description
+-- Up-to-date: /home/user/ros2_ws/install/barista_robot_description/share/barista_robot_description/environment/ament_prefix_path.sh
+-- Up-to-date: /home/user/ros2_ws/install/barista_robot_description/share/barista_robot_description/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/user/ros2_ws/install/barista_robot_description/share/barista_robot_description/environment/path.sh
+-- Up-to-date: /home/user/ros2_ws/install/barista_robot_description/share/barista_robot_description/environment/path.dsv
+-- Up-to-date: /home/user/ros2_ws/install/barista_robot_description/share/barista_robot_description/local_setup.bash
+-- Up-to-date: /home/user/ros2_ws/install/barista_robot_description/share/barista_robot_description/local_setup.sh
+-- Up-to-date: /home/user/ros2_ws/install/barista_robot_description/share/barista_robot_description/local_setup.zsh
+-- Up-to-date: /home/user/ros2_ws/install/barista_robot_description/share/barista_robot_description/local_setup.dsv
+-- Installing: /home/user/ros2_ws/install/barista_robot_description/share/barista_robot_description/package.dsv
+-- Up-to-date: /home/user/ros2_ws/install/barista_robot_description/share/ament_index/resource_index/packages/barista_robot_description
+-- Up-to-date: /home/user/ros2_ws/install/barista_robot_description/share/barista_robot_description/cmake/barista_robot_descriptionConfig.cmake
+-- Up-to-date: /home/user/ros2_ws/install/barista_robot_description/share/barista_robot_description/cmake/barista_robot_descriptionConfig-version.cmake
+-- Up-to-date: /home/user/ros2_ws/install/barista_robot_description/share/barista_robot_description/package.xml

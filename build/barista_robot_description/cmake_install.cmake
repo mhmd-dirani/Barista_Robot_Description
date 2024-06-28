@@ -47,7 +47,6 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     "/home/user/ros2_ws/src/barista_robot_description/urdf"
     "/home/user/ros2_ws/src/barista_robot_description/meshes"
     "/home/user/ros2_ws/src/barista_robot_description/launch"
-    "/home/user/ros2_ws/src/barista_robot_description/rviz"
     )
 endif()
 

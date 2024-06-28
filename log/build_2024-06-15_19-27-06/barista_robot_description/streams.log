@@ -1,0 +1,30 @@
+[0.139s] Invoking command in '/home/user/ros2_ws/build/barista_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/barista_robot_description -- -j8 -l8
+[3.316s] Invoked command in '/home/user/ros2_ws/build/barista_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/barista_robot_description -- -j8 -l8
+[3.352s] Invoking command in '/home/user/ros2_ws/build/barista_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/barista_robot_description
+[3.359s] -- Install configuration: ""
+[3.360s] -- Up-to-date: /home/user/ros2_ws/install/barista_robot_description/share/barista_robot_description//urdf
+[3.360s] -- Up-to-date: /home/user/ros2_ws/install/barista_robot_description/share/barista_robot_description//urdf/barista_robot_model.urdf
+[3.360s] -- Up-to-date: /home/user/ros2_ws/install/barista_robot_description/share/barista_robot_description//meshes
+[3.360s] -- Up-to-date: /home/user/ros2_ws/install/barista_robot_description/share/barista_robot_description//meshes/hokuyo_utm_30lx.dae
+[3.360s] -- Up-to-date: /home/user/ros2_ws/install/barista_robot_description/share/barista_robot_description//meshes/hokuyo_utm_30lx.stl
+[3.360s] -- Up-to-date: /home/user/ros2_ws/install/barista_robot_description/share/barista_robot_description//launch
+[3.361s] -- Up-to-date: /home/user/ros2_ws/install/barista_robot_description/share/barista_robot_description//launch/barista_xacro.launch.py
+[3.361s] -- Up-to-date: /home/user/ros2_ws/install/barista_robot_description/share/barista_robot_description//launch/barista_urdf.launch.py
+[3.361s] -- Up-to-date: /home/user/ros2_ws/install/barista_robot_description/share/barista_robot_description//rviz
+[3.361s] -- Installing: /home/user/ros2_ws/install/barista_robot_description/share/barista_robot_description//rviz/urdf.rviz
+[3.361s] -- Up-to-date: /home/user/ros2_ws/install/barista_robot_description/share/ament_index/resource_index/package_run_dependencies/barista_robot_description
+[3.361s] -- Up-to-date: /home/user/ros2_ws/install/barista_robot_description/share/ament_index/resource_index/parent_prefix_path/barista_robot_description
+[3.362s] -- Up-to-date: /home/user/ros2_ws/install/barista_robot_description/share/barista_robot_description/environment/ament_prefix_path.sh
+[3.362s] -- Up-to-date: /home/user/ros2_ws/install/barista_robot_description/share/barista_robot_description/environment/ament_prefix_path.dsv
+[3.362s] -- Up-to-date: /home/user/ros2_ws/install/barista_robot_description/share/barista_robot_description/environment/path.sh
+[3.362s] -- Up-to-date: /home/user/ros2_ws/install/barista_robot_description/share/barista_robot_description/environment/path.dsv
+[3.362s] -- Up-to-date: /home/user/ros2_ws/install/barista_robot_description/share/barista_robot_description/local_setup.bash
+[3.362s] -- Up-to-date: /home/user/ros2_ws/install/barista_robot_description/share/barista_robot_description/local_setup.sh
+[3.362s] -- Up-to-date: /home/user/ros2_ws/install/barista_robot_description/share/barista_robot_description/local_setup.zsh
+[3.363s] -- Up-to-date: /home/user/ros2_ws/install/barista_robot_description/share/barista_robot_description/local_setup.dsv
+[3.363s] -- Installing: /home/user/ros2_ws/install/barista_robot_description/share/barista_robot_description/package.dsv
+[3.363s] -- Up-to-date: /home/user/ros2_ws/install/barista_robot_description/share/ament_index/resource_index/packages/barista_robot_description
+[3.363s] -- Up-to-date: /home/user/ros2_ws/install/barista_robot_description/share/barista_robot_description/cmake/barista_robot_descriptionConfig.cmake
+[3.364s] -- Up-to-date: /home/user/ros2_ws/install/barista_robot_description/share/barista_robot_description/cmake/barista_robot_descriptionConfig-version.cmake
+[3.364s] -- Up-to-date: /home/user/ros2_ws/install/barista_robot_description/share/barista_robot_description/package.xml
+[3.365s] Invoked command in '/home/user/ros2_ws/build/barista_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/barista_robot_description

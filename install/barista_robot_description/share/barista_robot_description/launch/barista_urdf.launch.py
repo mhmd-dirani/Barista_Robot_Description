@@ -1,21 +1,21 @@
+#!/usr/bin/python3
 import os
 from ament_index_python.packages import get_package_share_directory, get_package_prefix
 from launch import LaunchDescription
-from launch_ros.actions import Node
-from launch.actions import IncludeLaunchDescription
+from launch.actions import DeclareLaunchArgument, IncludeLaunchDescription
 from launch.launch_description_sources import PythonLaunchDescriptionSource
-import random
+from launch_ros.actions import Node
+from launch.substitutions import Command
 
 def generate_launch_description():
-    urdf_file = 'barista_robot_model.urdf'
-    package_description = "barista_robot_description"
-    robot_desc_path = os.path.join(get_package_share_directory(package_description), "urdf", urdf_file)
     pkg_gazebo_ros = get_package_share_directory('gazebo_ros')
-    pkg_box_bot_gazebo = get_package_share_directory(package_description)
-    install_dir = get_package_prefix(package_description)
+    pkg_box_bot_gazebo = get_package_share_directory('barista_robot_description')
 
-    # Set the path to the WORLD model files. Is to find the models inside the models folder in my_box_bot_gazebo package
+    description_package_name = "barista_robot_description"
+    install_dir = get_package_prefix(description_package_name)
+
     gazebo_models_path = os.path.join(pkg_box_bot_gazebo, 'meshes')
+    robot_path = os.path.join(pkg_box_bot_gazebo, 'urdf', 'barista_robot_model.urdf')
 
     if 'GAZEBO_MODEL_PATH' in os.environ:
         os.environ['GAZEBO_MODEL_PATH'] = os.environ['GAZEBO_MODEL_PATH'] + ':' + install_dir + '/share' + ':' + gazebo_models_path
@@ -27,25 +27,31 @@ def generate_launch_description():
     else:
         os.environ['GAZEBO_PLUGIN_PATH'] = install_dir + '/lib'
 
-    # Gazebo launch
+    print("GAZEBO MODELS PATH=="+str(os.environ["GAZEBO_MODEL_PATH"]))
+    print("GAZEBO PLUGINS PATH=="+str(os.environ["GAZEBO_PLUGIN_PATH"]))
+
     gazebo = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(
             os.path.join(pkg_gazebo_ros, 'launch', 'gazebo.launch.py'),
         )
-    )    
+    )
 
-    # Robot State Publisher
+    joint_state_publisher_node = Node(
+        package="joint_state_publisher",
+        executable="joint_state_publisher",
+        name="joint_state_publisher",
+    )
+
     robot_state_publisher_node = Node(
         package='robot_state_publisher',
         executable='robot_state_publisher',
         name='robot_state_publisher_node',
         emulate_tty=True,
-        parameters=[{'use_sim_time': True, 'robot_description': open(robot_desc_path).read()}],
+        parameters=[{'use_sim_time': True, 'robot_description': Command(['xacro ', robot_path])}],
         output="screen"
     )
 
-    # RViz Node
-    rviz_config_dir = os.path.join(get_package_share_directory(package_description), 'rviz', 'urdf.rviz')
+    rviz_config_dir = os.path.join(pkg_box_bot_gazebo, 'rviz', 'urdf.rviz')
     rviz_node = Node(
         package='rviz2',
         executable='rviz2',
@@ -55,32 +61,30 @@ def generate_launch_description():
         arguments=['-d', rviz_config_dir]
     )
 
-    # Position and orientation
-    position = [0.0, 0.0, 0.2]
-    orientation = [0.0, 0.0, 0.0]
-    robot_base_name = "barista_robot"
-    entity_name = robot_base_name + "-" + str(int(random.random() * 100000))
-
-    # Spawn ROBOT Set Gazebo
     spawn_robot = Node(
         package='gazebo_ros',
         executable='spawn_entity.py',
         name='spawn_entity',
         output='screen',
-        arguments=['-entity',
-                   entity_name,
-                   '-x', str(position[0]), '-y', str(position[1]), '-z', str(position[2]),
-                   '-R', str(orientation[0]), '-P', str(orientation[1]), '-Y', str(orientation[2]),
+        arguments=['-entity', 'barista_bot',
+                   '-x', '0', '-y', '0', '-z', '0.2',
+                   '-R', '0', '-P', '0', '-Y', '0',
                    '-topic', '/robot_description'
                    ]
     )
 
-    # Create and return launch description object
-    return LaunchDescription(
-        [            
-            robot_state_publisher_node,
-            gazebo,
-            spawn_robot,
-            rviz_node
-        ]
-    )
+    return LaunchDescription([
+        DeclareLaunchArgument(
+            'world',
+            default_value=[os.path.join(pkg_box_bot_gazebo, 'worlds', 'empty.world'), ''],
+            description='SDF world file'
+        ),
+        gazebo,
+        robot_state_publisher_node,
+        joint_state_publisher_node,
+        spawn_robot,
+        rviz_node
+    ])
+
+if __name__ == '__main__':
+    generate_launch_description()

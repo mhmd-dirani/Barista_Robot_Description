@@ -1,0 +1,16 @@
+-- Install configuration: ""
+-- Up-to-date: /home/user/ros2_ws/install/barista_robot_description/share/barista_robot_description//urdf
+-- Installing: /home/user/ros2_ws/install/barista_robot_description/share/barista_robot_description//urdf/barista_robot_model.urdf
+-- Up-to-date: /home/user/ros2_ws/install/barista_robot_description/share/barista_robot_description//meshes
+-- Up-to-date: /home/user/ros2_ws/install/barista_robot_description/share/barista_robot_description//meshes/hokuyo_utm_30lx.dae
+-- Up-to-date: /home/user/ros2_ws/install/barista_robot_description/share/barista_robot_description//meshes/hokuyo_utm_30lx.stl
+-- Up-to-date: /home/user/ros2_ws/install/barista_robot_description/share/barista_robot_description//launch
+-- Installing: /home/user/ros2_ws/install/barista_robot_description/share/barista_robot_description//launch/barista_urdf.launch.py
+-- Up-to-date: /home/user/ros2_ws/install/barista_robot_description/share/barista_robot_description//rviz
+-- Installing: /home/user/ros2_ws/install/barista_robot_description/share/barista_robot_description//rviz/urdf.rviz
+[31mCMake Error at cmake_install.cmake:46 (file):
+  file INSTALL cannot find
+  "/home/user/ros2_ws/src/barista_robot_description/xacro": No such file or
+  directory.
+
+[0m
